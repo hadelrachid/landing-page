@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cursos Premium - Cursos Online para Seu Desenvolvimento</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <div class="logo">
+                    <i class="fas fa-graduation-cap"></i>
+                    <span>Cursos Premium</span>
+                </div>
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <nav class="nav-menu" id="navMenu">
+                    <ul>
+                        <li><a href="#"><i class="fas fa-home"></i> Início</a></li>
+                        <li><a href="#courses"><i class="fas fa-play-circle"></i> Cursos</a></li>
+                        <li><a href="#"><i class="fas fa-chalkboard-teacher"></i> Professores</a></li>
+                        <li><a href="#"><i class="fas fa-envelope"></i> Contato</a></li>
+                        <li><a href="#"><i class="fas fa-user"></i> Minha Conta</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <!-- Banner Hero -->
+    <section class="hero">
+        <div class="container">
+            <h1>Transforme sua carreira com nossos cursos online</h1>
+            <p>Aprenda com os melhores especialistas do mercado e dê o próximo passo na sua carreira com nossos cursos premium.</p>
+            <a href="#courses" class="btn">Ver Cursos</a>
+        </div>
+    </section>
+
+    <!-- Cursos -->
+    <section class="courses" id="courses">
+        <div class="container">
+            <h2 class="section-title">Nossos Cursos em Destaque</h2>
+            <div class="course-grid">
+                <!-- Curso 1 -->
+                <div class="course-card">
+                    <div class="course-badge">Mais Vendido</div>
+                    <div class="course-image">
+                        <img src="https://images.unsplash.com/photo-1499750310107-5fef28a66643?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Marketing Digital">
+                    </div>
+                    <div class="course-info">
+                        <h3>Marketing Digital Completo</h3>
+                        <span class="instructor">Por Carlos Silva</span>
+                        <p>Domine todas as estratégias de marketing digital desde o básico até técnicas avançadas de conversão.</p>
+                        <div class="course-meta">
+                            <div class="price">
+                                <span class="old-price">R$ 497,00</span>
+                                R$ 297,00
+                            </div>
+                            <div class="rating">
+                                <i class="fas fa-star"></i> 4.9
+                            </div>
+                        </div>
+                        <a href="#" class="btn">Comprar Curso</a>
+                    </div>
+                </div>
+                
+                <!-- Curso 2 -->
+                <div class="course-card">
+                    <div class="course-badge">Novidade</div>
+                    <div class="course-image">
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Data Science">
+                    </div>
+                    <div class="course-info">
+                        <h3>Data Science para Iniciantes</h3>
+                        <span class="instructor">Por Ana Oliveira</span>
+                        <p>Aprenda Python, Pandas, Machine Learning e análise de dados do zero, mesmo sem experiência prévia.</p>
+                        <div class="course-meta">
+                            <div class="price">
+                                <span class="old-price">R$ 397,00</span>
+                                R$ 247,00
+                            </div>
+                            <div class="rating">
+                                <i class="fas fa-star"></i> 4.8
+                            </div>
+                        </div>
+                        <a href="#" class="btn">Comprar Curso</a>
+                    </div>
+                </div>
+                
+                <!-- Curso 3 -->
+                <div class="course-card">
+                    <div class="course-image">
+                        <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80" alt="Gestão de Projetos">
+                    </div>
+                    <div class="course-info">
+                        <h3>Gestão de Projetos Ágil</h3>
+                        <span class="instructor">Por Marcos Ribeiro</span>
+                        <p>Metodologias ágeis, Scrum, Kanban e ferramentas para gerenciar projetos com eficiência.</p>
+                        <div class="course-meta">
+                            <div class="price">
+                                R$ 197,00
+                            </div>
+                            <div class="rating">
+                                <i class="fas fa-star"></i> 4.7
+                            </div>
+                        </div>
+                        <a href="#" class="btn">Comprar Curso</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Flutuante -->
+    <div class="floating-menu">
+        <button class="floating-btn" id="floatingBtn">
+            <i class="fas fa-comment-dots"></i>
+        </button>
+        <div class="floating-menu-content" id="floatingMenuContent">
+            <a href="#"><i class="fas fa-question-circle"></i> Dúvidas Frequentes</a>
+            <a href="#"><i class="fas fa-headset"></i> Suporte 24h</a>
+            <a href="#"><i class="fab fa-whatsapp"></i> WhatsApp</a>
+            <a href="#"><i class="fas fa-percentage"></i> Cupom de Desconto</a>
+            <a href="#"><i class="fas fa-book"></i> Materiais Gratuitos</a>
+        </div>
+    </div>
+
+    <!-- Rodapé -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>Sobre Nós</h3>
+                    <p>Somos uma plataforma de cursos online com mais de 50.000 alunos formados. Nossa missão é democratizar o acesso à educação de qualidade.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+                </div>
+                <div class="footer-column">
+                    <h3>Categorias</h3>
+                    <ul>
+                        <li><a href="#">Marketing Digital</a></li>
+                        <li><a href="#">Programação</a></li>
+                        <li><a href="#">Design</a></li>
+                        <li><a href="#">Negócios</a></li>
+                        <li><a href="#">Desenvolvimento Pessoal</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Institucional</h3>
+                    <ul>
+                        <li><a href="#">Política de Privacidade</a></li>
+                        <li><a href="#">Termos de Uso</a></li>
+                        <li><a href="#">Trabalhe Conosco</a></li>
+                        <li><a href="#">Blog</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Newsletter</h3>
+                    <p>Receba materiais gratuitos e ofertas exclusivas:</p>
+                    <div class="newsletter">
+                        <input type="email" placeholder="Seu melhor e-mail">
+                        <button type="submit">Assinar</button>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>&copy; 2023 Cursos Premium. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/scripts.js"></script>
+</body>
+</html>
